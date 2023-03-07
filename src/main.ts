@@ -8,9 +8,14 @@ async function bootstrap() {
   console.log("Hello World #1 from branch-1");
   console.log("Hello World #2 from branch-1");
   console.log("Hello World #3 from branch-1");
+
   console.log("Hello World #4 from branch-1");
   console.log("Hello World #5 from branch-1");
   console.log("Hello World #6 from branch-1");
+
+  console.log("Hello World #7 from branch-1");
+  console.log("Hello World #8 from branch-1");
+  console.log("Hello World #9 from branch-1");
 
   const app = await NestFactory.create(AppModule);
 
