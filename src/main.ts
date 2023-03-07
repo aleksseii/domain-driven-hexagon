@@ -4,6 +4,9 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
+
+  console.log("Hello World #1 from branch-1");
+
   const app = await NestFactory.create(AppModule);
 
   const options = new DocumentBuilder().build();
