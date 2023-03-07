@@ -6,6 +6,7 @@ import { ValidationPipe } from '@nestjs/common';
 async function bootstrap() {
 
   console.log("Hello World #1 from branch-1");
+  console.log("Hello World #2 from branch-1");
 
   const app = await NestFactory.create(AppModule);
 
